@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: ""Unsee the Seen, but Check Out for Emotions: A Face De-identification Approach based on Generative Adversarial Network"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
