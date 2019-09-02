@@ -16,24 +16,16 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2017: Research Assistant
+  * IIT Gandhinagar
+  * Duties included: Synthetic data generation, Object Localization, Improving the performance of Faster RCNN
+  * Supervisor: [Dr. Ravi Hegde](https://www.iitgn.ac.in/faculty/electrical/ravi.htm)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2018: Research Intern
+  * Samsung (Research & Development) Institute Bangalore
+  * Duties included: Cleaning Lip-Reading Dataset, Accurate Lip-Reading from Mobile Devices
+  * Supervisor: [Dr. Shankar Venkatesan](https://scholar.google.com/citations?user=HFm0RpIAAAAJ&hl=en)
+
 
 Publications
 ======
@@ -52,7 +44,4 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
