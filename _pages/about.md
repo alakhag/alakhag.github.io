@@ -21,6 +21,8 @@ I grew up in [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh) and [New Del
 
 # Latest
 
+**September 2020** Research paper on [Face De-identification](https://ieeexplore.ieee.org/abstract/document/9216358) published and available
+
 **July 2019** Going for Doctoral Studies (in CS) at the University of Texas at Dallas
 
 **July 2019** Research paper on [Broad Learning System](https://link.springer.com/chapter/10.1007/978-981-13-7403-6_31) published and available
