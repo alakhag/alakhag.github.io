@@ -21,6 +21,8 @@ I grew up in [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh) and [New Del
 
 # Latest
 
+**November 2021** Submitted a paper on Multi-Layered Implicit Garment Reconstruction.
+
 **September 2020** Research paper on [Face De-identification](https://ieeexplore.ieee.org/abstract/document/9216358) published and available
 
 **July 2019** Going for Doctoral Studies (in CS) at the University of Texas at Dallas
