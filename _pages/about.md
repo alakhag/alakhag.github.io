@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /home/
 title: "About me"
 excerpt: "About me"
 author_profile: true
@@ -10,7 +10,7 @@ redirect_from:
 
 I am a researcher and a thriving computer scientist. My main area of research is *3D Vision*. Currently, I am a *Ph.D.* candidate in [*Computer Science*](https://cs.utdallas.edu/) program at [**The University of Texas at Dallas**](https://utdallas.edu/). I started researching this field by doing various projects during the undergraduate studies from [**Indian Institute of Technology (BHU) Varanasi**](https://iitbhu.ac.in/) in [*Computer Science and Engineering*](https://iitbhu.ac.in/cse/), and finished it in 2019.
 
-My undergraduate advisor was [Dr. Pratik Chattopadhyay](https://www.iitbhu.ac.in/dept/cse/people/pratikcse) and I worked with him on the Broad Learning System, and De-identification, along with several other topics of interests. We employed the knowledge of *Neural Networks* and *Computer Vision* to produce amazing research works. I have also worked with [Dr. Shankar M. Venkatesan](https://scholar.google.com/citations?hl=en&user=HFm0RpIAAAAJ) on Lip-Reading System at Samsung R&D Institute Bangalore, and [Dr. Ravi S. Hegde](https://www.iitgn.ac.in/faculty/electrical/ravi.htm) on Transferring Learned Object Detection Features from Synthetic Images Domain to Real Images Domain at Indian Insitute of Technology Gandhinagar. **Currently, I will be working with** [**Dr. Xiaohu Guo**](https://www.utdallas.edu/~xguo/) **on 3D Human Reconstruction as my Ph.D. project.**
+My undergraduate advisor was [Dr. Pratik Chattopadhyay](https://www.iitbhu.ac.in/dept/cse/people/pratikcse) and I worked with him on the Broad Learning System, and De-identification, along with several other topics of interests. We employed the knowledge of *Neural Networks* and *Computer Vision* to produce amazing research works. I have also worked with [Dr. Shankar M. Venkatesan](https://scholar.google.com/citations?hl=en&user=HFm0RpIAAAAJ) on Lip-Reading System at Samsung R&D Institute Bangalore, and [Dr. Ravi S. Hegde](https://www.iitgn.ac.in/faculty/electrical/ravi.htm) on Transferring Learned Object Detection Features from Synthetic Images Domain to Real Images Domain at Indian Insitute of Technology Gandhinagar. **Currently, I will be working with** [**Dr. Xiaohu Guo**](https://www.utdallas.edu/~xguo/) **on Implicit 3D Graphics and Scene Reconstruction as my Ph.D. project.**
 
 I am grateful to all my advisors and co-workers who have advised me well and taught me amazing stuffs. I hope to keep learning more from them, and put my learning to a good use for the benefit of the world.
 
