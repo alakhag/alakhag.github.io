@@ -21,7 +21,7 @@ I grew up in [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh) and [New Del
 
 # Latest
 
-**November 2021** Submitted a paper on Multi-Layered Implicit Garment Reconstruction.
+**September 2022** Research paper on [Layered-Garment Net](https://openaccess.thecvf.com/content/ACCV2022/html/Aggarwal_Layered-Garment_Net_Generating_Multiple_Implicit_Garment_Layers_from_a_Single_ACCV_2022_paper.html) accepted in ACCV 2022
 
 **September 2020** Research paper on [Face De-identification](https://ieeexplore.ieee.org/abstract/document/9216358) published and available
 
