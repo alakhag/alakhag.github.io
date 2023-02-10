@@ -6,6 +6,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /
 ---
 
 I am a researcher and a thriving computer scientist. My main area of research is *3D Vision*. Currently, I am a *Ph.D.* candidate in [*Computer Science*](https://cs.utdallas.edu/) program at [**The University of Texas at Dallas**](https://utdallas.edu/). I started researching this field by doing various projects during the undergraduate studies from [**Indian Institute of Technology (BHU) Varanasi**](https://iitbhu.ac.in/) in [*Computer Science and Engineering*](https://iitbhu.ac.in/cse/), and finished it in 2019.
