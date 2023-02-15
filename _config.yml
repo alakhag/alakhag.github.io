@@ -102,10 +102,10 @@ author:
   github           : "alakhag"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/alakh.aggarwal/"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/alakh-aggarwal-044248110/"
   orcid            : "http://orcid.org/0000-0003-3756-5606"
   pinterest        :
   soundcloud       :
@@ -258,7 +258,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

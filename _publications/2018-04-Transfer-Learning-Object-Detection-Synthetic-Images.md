@@ -5,7 +5,8 @@ permalink: /publication/2018-04-Transfer-Learning-Object-Detection-Synthetic-Ima
 excerpt: 'This paper discusses our approach of transferring the learned object detection features trained entirely on Synthetic Images and tested on Real Images, which show significant performance improvements, along with easily generatable huge data for Deep Neural Networks.'
 date: 2018-04-26
 venue: 'Proceeding of the National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics NCVPRIPG 2017 in CCIS, vol 841 Series of Springer, Singapore'
-paperurl: 'https://link.springer.com/chapter/10.1007/978-981-13-0020-2_45'
+link: 'https://link.springer.com/chapter/10.1007/978-981-13-0020-2_45'
+paperurl: 'https://link.springer.com/content/pdf/10.1007/978-981-13-0020-2_45.pdf?pdf=inline%20link'
 citation: 'Rajpura P. et al. (2018) Transfer Learning by Finetuning Pretrained CNNs Entirely with Synthetic Images. In: Rameshan R., Arora C., Dutta Roy S. (eds) Computer Vision, Pattern Recognition, Image Processing, and Graphics. NCVPRIPG 2017. Communications in Computer and Information Science, vol 841. Springer, Singapore'
 ---
 
