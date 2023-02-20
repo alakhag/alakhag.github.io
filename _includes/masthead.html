@@ -32,7 +32,8 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | relative_url }}">
-          {{ site.masthead_title | default: site.title }}
+          <i class="fa fa-home"></i>
+          <!-- {{ site.masthead_title | default: site.title }} -->
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <button><div class="navicon"></div></button>
@@ -44,6 +45,7 @@
           {% endfor %}
         </ul>
         {% if site.minimal_mistakes_skin2 %}
+        &nbsp;&nbsp;
           <i 
           class="fas fa-thin fa-sun"
           aria-hidden="true" 
