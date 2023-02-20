@@ -19,27 +19,39 @@ I grew up in [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh) and [New Del
 
 
 
+<div class="one_section">
+  <h2 style="padding: 1em;"> Latest</h2>
 
-# Latest
-
-**September 2022** Research paper on [Layered-Garment Net](https://openaccess.thecvf.com/content/ACCV2022/html/Aggarwal_Layered-Garment_Net_Generating_Multiple_Implicit_Garment_Layers_from_a_Single_ACCV_2022_paper.html) accepted in ACCV 2022
-
-**September 2020** Research paper on [Face De-identification](https://ieeexplore.ieee.org/abstract/document/9216358) published and available
-
-**July 2019** Going for Doctoral Studies (in CS) at the University of Texas at Dallas
-
-**July 2019** Research paper on [Broad Learning System](https://link.springer.com/chapter/10.1007/978-981-13-7403-6_31) published and available
-
-**June 2019** Submitted a paper on De-identification
-
-**May 2019** Completed B.Tech. (Hons. in AI/CV Stream) in CSE from IIT (BHU) Varanasi
-
-**July 2018** Submitted a paper on Broad Learning System in [IEMGraph 2018](http://iem.edu.in/iemgraph2018/) conference
-
-**July 2018** Completed my summer intern at Samsung Research Insitute Bangalore on Lip-Reading System
-
-**May 2018** Started my summer internship at Samsung Research Institute Bangalore
-
-**December 2017** Gave presentation for research paper on [Transfer Learning and Object Detection](https://link.springer.com/chapter/10.1007/978-981-13-0020-2_45) at the [NCVPRIPG 2017](http://ncvpripg.iitmandi.ac.in/) conference
-
-**August 2017** Submitted a paper on Transfer Learning and Object Detection
+  <ul style="list-style-type: none">
+    <l1> <b>September 2022</b> Research paper on <a href="https://openaccess.thecvf.com/content/ACCV2022/html/Aggarwal_Layered-Garment_Net_Generating_Multiple_Implicit_Garment_Layers_from_a_Single_ACCV_2022_paper.html">Layered-Garment Net</a> accepted in ACCV 2022</l1><br>
+    
+    <br>
+    <l1> <b>September 2020</b> Research paper on <a href="https://ieeexplore.ieee.org/abstract/document/9216358">Face De-identification</a> published and available</l1><br>
+    
+    <br>
+    <l1> <b>July 2019</b> Going for Doctoral Studies (in CS) at the University of Texas at Dallas</l1><br>
+    
+    <br>
+    <l1> <b>July 2019</b> Research paper on <a href="https://link.springer.com/chapter/10.1007/978-981-13-7403-6_31">Broad Learning System</a> published and available</l1><br>
+    
+    <br>
+    <l1> <b>June 2019</b> Submitted a paper on De-identification</l1><br>
+    
+    <br>
+    <l1> <b>May 2019</b> Completed B.Tech. (Hons. in AI/CV Stream) in CSE from IIT (BHU) Varanasi</l1><br>
+    
+    <br>
+    <l1> <b>July 2018</b> Submitted a paper on Broad Learning System in <a href="http://iem.edu.in/iemgraph2018/">IEMGraph 2018</a> conference</l1><br>
+    
+    <br>
+    <l1> <b>July 2018</b> Completed my summer intern at Samsung Research Insitute Bangalore on Lip-Reading System</l1><br>
+    
+    <br>
+    <l1> <b>May 2018</b> Started my summer internship at Samsung Research Institute Bangalore</l1><br>
+    
+    <br>
+    <l1> <b>December 2017</b> Gave presentation for research paper on <a href="https://link.springer.com/chapter/10.1007/978-981-13-0020-2_45">Transfer Learning and Object Detection</a> at the <a href="http://ncvpripg.iitmandi.ac.in/">NCVPRIPG 2017</a> conference</l1><br>
+    
+    <br>
+    <l1> <b>August 2017</b> Submitted a paper on Transfer Learning and Object Detection</l1><br>
+</div>

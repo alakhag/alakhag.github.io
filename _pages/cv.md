@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,13 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.Tech. (Hons.) AI/CV Stream, CSE Department, IIT (BHU) Varanasi, India, 2019
-* Ph.D in 3D Vision, University of Texas at Dallas, 2024 (expected)
+<hr>
 
-Work experience
-======
+## Education
+* Ph.D in 3D Vision, University of Texas at Dallas, 2024 (expected)
+* B.Tech. (Hons.) AI/CV Stream, CSE Department, IIT (BHU) Varanasi, India, 2019
+
+<hr>
+
+## Work experience
 * Summer 2017: Research Assistant
   * IIT Gandhinagar
   * Duties included: Synthetic data generation, Object Localization, Improving the performance of Faster RCNN
@@ -26,22 +28,30 @@ Work experience
   * Duties included: Cleaning Lip-Reading Dataset, Accurate Lip-Reading from Mobile Devices
   * Supervisor: [Dr. Shankar Venkatesan](https://scholar.google.com/citations?user=HFm0RpIAAAAJ&hl=en)
 
+<hr>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<div class="one_section">
+  <h2 style="padding: 1em;"><u>Publications</u></h2>
+  <ul>{% for post in site.publications reversed %}{% include archive-single-cv.html %}{% endfor %}</ul>
+<br>
+</div>
+
+<hr>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
+<div class="one_section">
+  <h2 style="padding: 1em;"><u>Teaching</u></h2>
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+<br>
+</div>
 
+<hr>
+
+<div class="one_section">
+  <h2 style="padding: 1em;"><u>Talks</u></h2>
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+<br>
+</div>

@@ -8,15 +8,4 @@ date: 2023-01-15
 location: "Dallas"
 ---
 
-Algorithmic analysis
-- Asymptotic analysis
-- Big-O notation
-- Master theorem
-- Divide and conquer
-- Dynamic programming
-- Greedy algorithm
-- Randomized algorithm
-- Approximation algorithm
-- NP-completeness
-- P vs NP
-- NP-hardness
+Algorithmic analysis and design. Algorithmic paradigms: divide and conquer, dynamic programming, greedy algorithms, randomized algorithms, approximation algorithms. Algorithmic techniques: backtracking, branch and bound, graph algorithms, string algorithms, computational geometry. Algorithmic complexity: time and space complexity, worst-case and average-case analysis, asymptotic notation, master theorem. NP-completeness and P vs NP.

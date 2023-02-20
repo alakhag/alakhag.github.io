@@ -12,5 +12,8 @@ author_profile: true
 {% endif %}
 
 {% for post in site.talks reversed %}
+<div class="one_section" style="padding: 1em;">
   {% include archive-single-talk.html %}
+</div>
+<hr>
 {% endfor %}

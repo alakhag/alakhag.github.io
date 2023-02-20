@@ -12,5 +12,8 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
+  <div class="one_section" style="padding: 1em;">
   {% include archive-single.html %}
+  </div>
+  <hr>
 {% endfor %}

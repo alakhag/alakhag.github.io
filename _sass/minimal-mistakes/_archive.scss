@@ -131,6 +131,14 @@
   }
 }
 
+.one_section {
+  background-color: $section-background-color;
+  border-style: solid;
+  border-color: $section-border-color;
+  border-radius: 2%;
+  border-width: medium;
+}
+
 /*
    Grid view
    ========================================================================== */
