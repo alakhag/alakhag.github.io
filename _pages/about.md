@@ -23,6 +23,9 @@ I grew up in [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh) and [New Del
   <h2 style="padding: 1em;"> Latest</h2>
 
   <ul style="list-style-type: none">
+    <l1> <b>March 2024</b> Submitted a paper on Inverse Rendering of Dynamic Hand-Object Interaction in ECCV 2024.</l1><br>
+
+    <br>
     <l1> <b>September 2022</b> Research paper on <a href="https://openaccess.thecvf.com/content/ACCV2022/html/Aggarwal_Layered-Garment_Net_Generating_Multiple_Implicit_Garment_Layers_from_a_Single_ACCV_2022_paper.html">Layered-Garment Net</a> accepted in ACCV 2022</l1><br>
     
     <br>
