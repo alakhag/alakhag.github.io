@@ -57,4 +57,4 @@ I grew up in [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh) and [New Del
     
     <br>
     <l1> <b>August 2017</b> Submitted a paper on Transfer Learning and Object Detection</l1><br>
-</div>
+
