@@ -23,7 +23,7 @@ These experiences have shaped my perspective on **computer vision, machine learn
 
 ## Gratitude & Vision  
 
-I am immensely grateful to my advisors and collaborators who have mentored and inspired me throughout my journey. My goal is to apply my knowledge to **advance 3D vision technologies** and contribute meaningfully to the scientific community.
+I am immensely grateful to my advisors and collaborators who have mentored and inspired me throughout my journey. My goal is to apply my knowledge to **advance vision technologies** and contribute meaningfully to the world.
 
 ## Personal Background  
 
