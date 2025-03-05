@@ -23,7 +23,9 @@ These experiences have shaped my perspective on **computer vision, machine learn
 
 ## Gratitude & Vision  
 
-I am immensely grateful to my advisors and collaborators who have mentored and inspired me throughout my journey. My goal is to apply my knowledge to **advance vision technologies** and contribute meaningfully to the world.
+I am deeply grateful to my advisors and collaborators who have mentored and inspired me throughout my journey. Their guidance has shaped my understanding and passion for research.  
+
+My goal is to leverage my expertise to **advance vision technologies** and contribute meaningfully to the world. True to my name, **Alakh**—derived from Sanskrit, meaning *that which cannot be perceived by the naked eye*—I aspire to uncover **visual information beyond what meets the eye**, pushing the boundaries of perception and understanding in computer vision.
 
 ## Personal Background  
 
