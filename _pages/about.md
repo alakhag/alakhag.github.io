@@ -9,18 +9,30 @@ redirect_from:
   - /
 ---
 
-I am a researcher and a thriving computer scientist. My main area of research is *3D Vision*. Currently, I am a *Ph.D.* candidate in [*Computer Science*](https://cs.utdallas.edu/) program at [**The University of Texas at Dallas**](https://utdallas.edu/). I started researching this field by doing various projects during the undergraduate studies from [**Indian Institute of Technology (BHU) Varanasi**](https://iitbhu.ac.in/) in [*Computer Science and Engineering*](https://iitbhu.ac.in/cse/), and finished it in 2019.
+I am a **researcher** and an aspiring **computer scientist**, deeply passionate about **3D Vision** and its applications. Currently, I am pursuing a **Ph.D. in Computer Science** at [The University of Texas at Dallas](https://utdallas.edu/), where I focus on **Implicit 3D Graphics and Scene Reconstruction** under the guidance of [Dr. Xiaohu Guo](https://www.utdallas.edu/~xguo/).  
 
-My undergraduate advisor was [Dr. Pratik Chattopadhyay](https://www.iitbhu.ac.in/dept/cse/people/pratikcse) and I worked with him on the Broad Learning System, and De-identification, along with several other topics of interests. We employed the knowledge of *Neural Networks* and *Computer Vision* to produce amazing research works. I have also worked with [Dr. Shankar M. Venkatesan](https://scholar.google.com/citations?hl=en&user=HFm0RpIAAAAJ) on Lip-Reading System at Samsung R&D Institute Bangalore, and [Dr. Ravi S. Hegde](https://www.iitgn.ac.in/faculty/electrical/ravi.htm) on Transferring Learned Object Detection Features from Synthetic Images Domain to Real Images Domain at Indian Insitute of Technology Gandhinagar. **Currently, I will be working with** [**Dr. Xiaohu Guo**](https://www.utdallas.edu/~xguo/) **on Implicit 3D Graphics and Scene Reconstruction as my Ph.D. project.**
+## Education & Research Journey  
 
-I am grateful to all my advisors and co-workers who have advised me well and taught me amazing stuffs. I hope to keep learning more from them, and put my learning to a good use for the benefit of the world.
+My journey in research began during my undergraduate studies in **Computer Science and Engineering** at [Indian Institute of Technology (BHU) Varanasi](https://iitbhu.ac.in/cse/), which I completed in **2019**. During this time, I explored multiple research directions, collaborating with esteemed professors and researchers:
 
-I grew up in [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh) and [New Delhi](https://en.wikipedia.org/wiki/New_Delhi), India.
+- **[Dr. Pratik Chattopadhyay](https://www.iitbhu.ac.in/dept/cse/people/pratikcse)** – Worked on **Broad Learning Systems**, **De-identification**, and various applications of **Neural Networks** and **Computer Vision**.  
+- **[Dr. Shankar M. Venkatesan](https://scholar.google.com/citations?hl=en&user=HFm0RpIAAAAJ)** – Developed a **Lip-Reading System** at **Samsung R&D Institute, Bangalore**.  
+- **[Dr. Ravi S. Hegde](https://www.iitgn.ac.in/faculty/electrical/ravi.htm)** – Researched **Object Detection Feature Transfer** from synthetic images to real-world images at **IIT Gandhinagar**.  
+
+These experiences have shaped my perspective on **computer vision, machine learning, and 3D graphics**, motivating me to explore new frontiers in **3D reconstruction and implicit representations** in my Ph.D. research.
+
+## Gratitude & Vision  
+
+I am immensely grateful to my advisors and collaborators who have mentored and inspired me throughout my journey. My goal is to apply my knowledge to **advance 3D vision technologies** and contribute meaningfully to the scientific community.
+
+## Personal Background  
+
+I grew up in **Chandigarh** and **New Delhi**, India. My curiosity for technology and problem-solving has driven me to push boundaries in research and innovation. I strive to keep learning, exploring, and making a positive impact.
 
 
 
 <div class="one_section">
-  <h2 style="padding: 1em;"> Latest</h2>
+  <h2 style="padding: 1em;"> Latest News </h2>
 
   <ul style="list-style-type: none">
     <l1> <b>December 2024</b> Research paper on inverse rendering of dynamic hand-object interaction to reconstruct high-fidelity texture conditionally accepted in ICCVM 2025.</l1><br>
