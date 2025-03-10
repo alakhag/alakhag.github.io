@@ -1,0 +1,11 @@
+---
+title: "NeRO"
+collection: talks
+type: "Seminar talk"
+permalink: /talks/2022-01-01-NeRO
+venue: "Computer Graphics and Animation Lab"
+date: 2022-01-01
+location: "Dallas, TX"
+---
+
+A [slide](https://docs.google.com/presentation/d/186tLlc9xiSWxgnEnBaRv2vLEB3ne-1dn/edit?usp=sharing&ouid=102040681948308468041&rtpof=true&sd=true) explaining a Neural Network based Radiance Field handling reflective objects. 
