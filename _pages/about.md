@@ -37,6 +37,7 @@ I grew up in **Chandigarh** and **New Delhi**, India. My curiosity for technolog
   <h2 style="padding: 1em;"> Latest News </h2>
 
   <ul style="list-style-type: none">
+    
     <l1> <b>February 2025</b> Research paper "TexHOI" accepted in CVM 2025 recommended to IEEE TVCG (Transactions on Visualization and Computer Graphics).</l1><br>
     
     <br>
