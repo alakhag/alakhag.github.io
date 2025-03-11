@@ -27,10 +27,6 @@ I am deeply grateful to my advisors and collaborators who have mentored and insp
 
 My goal is to leverage my expertise to **advance vision technologies** and contribute meaningfully to the world. True to my name, **Alakh**—derived from Sanskrit, meaning *that which cannot be perceived by the naked eye*—I aspire to uncover **visual information beyond what meets the eye**, pushing the boundaries of perception and understanding in computer vision.
 
-## Personal Background  
-
-I grew up in **Chandigarh** and **New Delhi**, India. My curiosity for technology and problem-solving has driven me to push boundaries in research and innovation. I strive to keep learning, exploring, and making a positive impact.
-
 
 
 <div class="one_section">
