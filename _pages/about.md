@@ -9,7 +9,9 @@ redirect_from:
   - /
 ---
 
-I am a **researcher** and an aspiring **computer scientist**, deeply passionate about **3D Vision** and its applications. Currently, I am pursuing a **Ph.D. in Computer Science** at [The University of Texas at Dallas](https://utdallas.edu/), where I focus on **Implicit 3D Graphics and Scene Reconstruction** under the guidance of [Dr. Xiaohu Guo](https://www.utdallas.edu/~xguo/).  
+I am a **researcher** and an aspiring **computer scientist**, deeply passionate about **3D Vision** and its applications. Currently, I am pursuing a **Ph.D. in Computer Science** at [The University of Texas at Dallas](https://utdallas.edu/), where I focus on **Implicit 3D Graphics and Scene Reconstruction** under the guidance of [Dr. Xiaohu Guo](https://www.utdallas.edu/~xguo/).
+
+📢 I am currently looking for job/post-doc positions. Please contact me via contact information on the left.
 
 ## Education & Research Journey  
 
