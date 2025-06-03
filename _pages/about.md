@@ -37,6 +37,9 @@ My goal is to leverage my expertise to **advance vision technologies** and contr
   <ul style="list-style-type: none">
     
     <l1> <b>April 2025</b> Research paper "TexHOI" received the "Best Paper Award" in CVM 2025.</l1><br>
+
+    <br>
+    <li> <b>April 2025</b> Passed the Ph.D. proposal.</li><br>
     
     <br>
     <l1> <b>April 2025</b> Received the <a href="https://graduate.utdallas.edu/success/awards-grants/"> Betty and Gifford Johnson Travel Awards</a>. </l1><br>
