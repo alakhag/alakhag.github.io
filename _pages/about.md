@@ -35,11 +35,17 @@ My goal is to leverage my expertise to **advance vision technologies** and contr
   <h2 style="padding: 1em;"> Latest News </h2>
 
   <ul style="list-style-type: none">
-    
+
+    <l1> <b>October 2025</b> Successfully defended my thesis titled "Learning Complex Occlusion-Aware 3D Representations from Human-Object Interactions."</l1><br>
+
+    <br>
+    <l1> <b>August 2025</b> Research paper "GS-HOI" submitted in 3DV 2026.</l1><br>
+
+    <br>
     <l1> <b>April 2025</b> Research paper "TexHOI" received the "Best Paper Award" in CVM 2025.</l1><br>
 
     <br>
-    <li> <b>April 2025</b> Passed the Ph.D. proposal.</li>
+    <li> <b>April 2025</b> Passed the Ph.D. proposal.</li><br>
     
     <br>
     <l1> <b>April 2025</b> Received the <a href="https://graduate.utdallas.edu/success/awards-grants/"> Betty and Gifford Johnson Travel Awards</a>. </l1><br>
