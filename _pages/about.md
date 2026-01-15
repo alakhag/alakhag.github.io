@@ -9,7 +9,7 @@ redirect_from:
   - /
 ---
 
-I am a **researcher** and an aspiring **computer scientist**, deeply passionate about **3D Vision** and its applications. Currently, I am pursuing a **Ph.D. in Computer Science** at [The University of Texas at Dallas](https://utdallas.edu/), where I focus on **Implicit 3D Graphics and Scene Reconstruction** under the guidance of [Dr. Xiaohu Guo](https://www.utdallas.edu/~xguo/).
+I am a **researcher** and an aspiring **computer scientist**, deeply passionate about **3D Vision** and its applications. Currently, I am a **Research Engineer** at [Digi-Clone](https://www.digi-clone.com/).
 
 📢 I am currently looking for job/post-doc positions. Please contact me via contact information on the left.
 
@@ -37,6 +37,9 @@ My goal is to leverage my expertise to **advance vision technologies** and contr
   <ul style="list-style-type: none">
 
     <l1> <b>October 2025</b> Successfully defended my thesis titled "Learning Complex Occlusion-Aware 3D Representations from Human-Object Interactions."</l1><br>
+
+    <br>
+    <l1> <b>September 2025</b> Started working as a "Senior Research Engineer" at Digi-Clone Ltd Co.</l1><br>
 
     <br>
     <l1> <b>August 2025</b> Research paper "GS-HOI" submitted in 3DV 2026.</l1><br>
