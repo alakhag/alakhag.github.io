@@ -12,12 +12,16 @@ redirect_from:
 <hr>
 
 ## Education
-* Ph.D in 3D Vision, University of Texas at Dallas, 2024 (expected)
+* Ph.D in 3D Vision, University of Texas at Dallas, 2025
 * B.Tech. (Hons.) AI/CV Stream, CSE Department, IIT (BHU) Varanasi, India, 2019
 
 <hr>
 
 ## Work experience
+* Present: Research Engineer
+  * Digi-Clone
+  * Duties included: Technical MVP, Cloth Simulation and Draping
+
 * Summer 2017: Research Assistant
   * IIT Gandhinagar
   * Duties included: Synthetic data generation, Object Localization, Improving the performance of Faster RCNN
@@ -27,7 +31,6 @@ redirect_from:
   * Samsung (Research & Development) Institute Bangalore
   * Duties included: Cleaning Lip-Reading Dataset, Accurate Lip-Reading from Mobile Devices
   * Supervisor: [Dr. Shankar Venkatesan](https://scholar.google.com/citations?user=HFm0RpIAAAAJ&hl=en)
-
 <hr>
 
 <div class="one_section">
