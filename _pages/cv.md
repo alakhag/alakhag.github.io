@@ -12,7 +12,7 @@ redirect_from:
 <hr>
 
 ## Education
-* Ph.D in 3D Vision, University of Texas at Dallas, 2025
+* Ph.D in 3D Vision, University of Texas at Dallas, 2025 (Supervisor: [Dr. Xiaohu Guo](https://personal.utdallas.edu/~xguo/))
 * B.Tech. (Hons.) AI/CV Stream, CSE Department, IIT (BHU) Varanasi, India, 2019
 
 <hr>
