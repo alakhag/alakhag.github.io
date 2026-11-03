@@ -13,6 +13,7 @@ aliases:
 {{< button href="https://alakhag.github.io/TexHOI-website/" target="_blank" >}}Project page{{< /button >}}
 {{< button href="https://arxiv.org/abs/2501.03525" target="_blank" >}}Paper{{< /button >}}
 {{< button href="https://github.com/alakhag/TexHOI" target="_blank" >}}Code{{< /button >}}
+{{< button href="https://youtu.be/D_M4wTTLIeM" target="_blank" >}}Talk{{< /button >}}
 {{< button href="https://doi.org/10.1109/TVCG.2025.3567276" target="_blank" >}}IEEE{{< /button >}}
 </div>
 
