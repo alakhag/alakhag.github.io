@@ -1,0 +1,12 @@
+[[main]]
+  name = "Research"
+  pageRef = "research"
+  weight = 10
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
+[[main]]
+  name = "Resume"
+  url = "/resume.pdf"
+  weight = 30

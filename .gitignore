@@ -1,5 +1,3 @@
-_site/
-
-vendor/
-.bundle/
-_site/
+public/
+resources/_gen/
+.hugo_build.lock

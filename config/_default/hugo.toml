@@ -1,0 +1,22 @@
+baseURL = "https://alakhag.github.io/"
+locale = "en"
+defaultContentLanguage = "en"
+title = "Alakh Aggarwal"
+theme = "blowfish"
+enableRobotsTXT = true
+summaryLength = 0
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+# Keep $...$ and $$...$$ untouched so KaTeX renders them in the browser.
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['$$', '$$']]
+    inline = [['$', '$']]

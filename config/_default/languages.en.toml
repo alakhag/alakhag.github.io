@@ -1,0 +1,19 @@
+locale = "en"
+label = "English"
+weight = 1
+title = "Alakh Aggarwal"
+
+[params]
+  description = "Alakh Aggarwal, research engineer in 3D computer vision. Ph.D., UT Dallas; CVM 2025 Best Paper. 3D reconstruction, neural rendering, virtual try-on."
+
+[params.author]
+  name = "Alakh Aggarwal"
+  image = "img/profile.jpg"
+  headline = "Seeing what the camera can't."
+  bio = "Senior Research Engineer at Digi-Clone · Ph.D., UT Dallas · Dallas, TX"
+  links = [
+    { email = "mailto:alakh1997@gmail.com" },
+    { google-scholar = "https://scholar.google.com/citations?user=X9XBBCcAAAAJ" },
+    { github = "https://github.com/alakhag" },
+    { linkedin = "https://www.linkedin.com/in/alakh-aggarwal" },
+  ]

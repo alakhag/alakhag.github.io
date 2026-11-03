@@ -1,0 +1,33 @@
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true   # follow the visitor's system light/dark setting
+enableSearch = false
+enableCodeCopy = true
+disableImageOptimization = false
+
+[header]
+  layout = "basic"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+
+[article]
+  showDate = true
+  showAuthor = true
+  showReadingTime = true
+  showWordCount = false
+  showTableOfContents = false
+  showRelatedContent = false
+  showHero = false
+
+[list]
+  showSummary = true
+  cardView = false
+  groupByYear = true

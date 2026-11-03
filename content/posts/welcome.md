@@ -1,0 +1,11 @@
+---
+title: 'Welcome to my Website!'
+date: 2020-06-14
+url: /posts/welcome/
+tags:
+  - intro
+---
+
+Welcome to my Website! I am really glad that you are here, and hope that you can make the most out of it. I will be updating my profile and information and maintain it, along with writing about latest research in my field. I hope this keeps me up-to-date with latest works, and simultaneously, can be helpful for others.
+
+Hope you like it! Shoot your comments, suggestions and thoughts at <alakh.aggarwal@utdallas.edu>.
