@@ -20,7 +20,7 @@ Best Paper Award, CVM 2025 · JEE Advanced All-India Rank 835 · NSF SBIR Phase 
 I'm a research engineer in 3D computer vision. I reconstruct people, garments, and objects from ordinary images, including the parts the camera can't see. At Digi-Clone I lead R&D for a 3D virtual try-on product, from estimating the body to simulating the cloth. Before that, I did my Ph.D. at UT Dallas with Dr. Xiaohu Guo on occlusion-aware 3D reconstruction from hand-object interactions; that work produced TexHOI, which won the CVM 2025 Best Paper Award. My name, *Alakh*, is Sanskrit for "that which cannot be perceived by the eye", which suits someone who spends his days recovering hidden surfaces.
 
 ## Now: Digi-Clone (Sep 2025 – present)
-I'm the sole R&D engineer on a 3D virtual try-on product. My technical MVP was the basis of the company's NSF SBIR Phase I award.
+I'm the sole R&D engineer on a 3D virtual try-on product, leading the R&D funded by the company's NSF SBIR Phase I award; I built the product's technical MVP under it.
 - Two photos → a 3D body. It fits a parametric body model from a front photo, a side photo, and tape measurements.
 - Garments on bodies. It places sewing-pattern panels on the avatar and drapes them with cloth simulation, across size-graded women's and men's garments.
 - Measured, not eyeballed. Across 15 garments, every draped seam closes within 8.6 mm. 13 of 15 garments have zero body penetration, and fabric stretch averages under 1.2×.
