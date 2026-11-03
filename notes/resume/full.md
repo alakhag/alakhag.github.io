@@ -2,7 +2,7 @@
 
 **Research Engineer | 3D Computer Vision | Generative AI | Ph.D.**
 
-Dallas, TX | +1 (214) 606-4870 | alakh1997@gmail.com | [alakhag.github.io](https://alakhag.github.io)
+Dallas, TX | +1 (214) 606-4870 | alakh1997@gmail.com | [alakhaggarwal.com](https://alakhaggarwal.com)
 
 [linkedin.com/in/alakh-aggarwal](https://linkedin.com/in/alakh-aggarwal) | [github.com/alakhag](https://github.com/alakhag) | [scholar.google.com/citations?user=X9XBBCcAAAAJ](https://scholar.google.com/citations?user=X9XBBCcAAAAJ)
 
