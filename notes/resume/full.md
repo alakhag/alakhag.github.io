@@ -4,7 +4,7 @@
 
 Dallas, TX | +1 (214) 606-4870 | alakh1997@gmail.com | [alakhaggarwal.com](https://alakhaggarwal.com)
 
-[linkedin.com/in/alakh-aggarwal](https://linkedin.com/in/alakh-aggarwal) | [github.com/alakhag](https://github.com/alakhag) | [scholar.google.com/citations?user=X9XBBCcAAAAJ](https://scholar.google.com/citations?user=X9XBBCcAAAAJ)
+[linkedin.com/in/alakh-aggarwal](https://www.linkedin.com/in/alakh-aggarwal/) | [github.com/alakhag](https://github.com/alakhag) | [scholar.google.com/citations?user=X9XBBCcAAAAJ](https://scholar.google.com/citations?user=X9XBBCcAAAAJ)
 
 ## Summary
 
@@ -43,7 +43,7 @@ Research engineer with a Ph.D. in Computer Science, specializing in 3D reconstru
 ## Education
 
 - **Ph.D., Computer Science**, The University of Texas at Dallas, Dallas, TX | Aug 2019 – Oct 2025 | GPA 4.0
-- **B.Tech (Hons.), Computer Science and Engineering**, IIT (BHU) Varanasi | Jul 2015 – Jun 2019 | CPI 9.18/10
+- **B.Tech (Hons.), Computer Science and Engineering**, IIT (BHU) Varanasi | Jul 2015 – Jun 2019 | CPI 9.13/10
 - Undergraduate research: GAN-based face de-identification (IEEE IEMTRONICS 2020) and aerial change detection (IEMGraph 2018).
 
 ## Skills
