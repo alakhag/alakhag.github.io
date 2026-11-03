@@ -15,7 +15,9 @@ disableImageOptimization = false
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
+  layout = "background"
+  homepageImage = "img/home-bg.jpg"
+  layoutBackgroundBlur = true
   showRecent = false
 
 [article]
