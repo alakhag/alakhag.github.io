@@ -11,9 +11,18 @@ aliases:
 
 <div class="not-prose" style="display:flex;flex-wrap:wrap;gap:.75rem;margin:1.25rem 0">
 {{< button href="https://ieeexplore.ieee.org/abstract/document/9216358" target="_blank" >}}Paper{{< /button >}}
+{{< button href="https://personal.ntu.edu.sg/elpwang/PDF_web/2020_face_de_id_conf.pdf" target="_blank" >}}PDF{{< /button >}}
 </div>
 
 A GAN that hides who is in a face image while keeping the expression and other non-identifying information, for sharing surveillance footage without exposing identities.
+
+## Results
+
+{{< figure src="fig3-results.png" alt="Five face images from the RaFD dataset and their de-identified versions" caption="Top: faces from the RaFD dataset. Bottom: EPD-Net's de-identified outputs, which change who the person appears to be while keeping the expression. (Fig. 3 in the paper.)" >}}
+
+## Method
+
+{{< figure src="fig2-architecture.png" alt="EPD-Net architecture: U-Net generator and PatchGAN discriminator with SSIM loss, plus identity and emotion verificators" caption="A structure-preserving GAN (U-Net generator, PatchGAN discriminator with SSIM loss) trained against two verifiers: one pushes identity away from the input, the other keeps the emotion. (Fig. 2 in the paper.)" >}}
 
 ## Abstract
 
