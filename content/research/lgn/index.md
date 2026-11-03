@@ -13,9 +13,14 @@ aliases:
 {{< button href="https://openaccess.thecvf.com/content/ACCV2022/html/Aggarwal_Layered-Garment_Net_Generating_Multiple_Implicit_Garment_Layers_from_a_Single_ACCV_2022_paper.html" target="_blank" >}}Paper{{< /button >}}
 {{< button href="https://openaccess.thecvf.com/content/ACCV2022/papers/Aggarwal_Layered-Garment_Net_Generating_Multiple_Implicit_Garment_Layers_from_a_Single_ACCV_2022_paper.pdf" target="_blank" >}}PDF{{< /button >}}
 {{< button href="https://github.com/alakhag/lgn" target="_blank" >}}Code{{< /button >}}
+{{< button href="https://youtu.be/p5t40mSCwZU" target="_blank" >}}Talk{{< /button >}}
 </div>
 
 From one photo of a person, it rebuilds each layer of clothing (a shirt under a jacket, over trousers) as separate 3D surfaces that never pass through each other.
+
+## Talk
+
+{{< youtubeLite id="p5t40mSCwZU" >}}
 
 ## Method
 
