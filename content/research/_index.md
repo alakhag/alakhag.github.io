@@ -1,14 +1,11 @@
 ---
 title: "Research"
-description: "Publications and research projects by Alakh Aggarwal."
+description: "Publications by Alakh Aggarwal: 3D reconstruction, neural rendering, garments, and computer vision."
 aliases:
   - /publications/
-  - /publication/2018-04-Transfer-Learning-Object-Detection-Synthetic-Images/
-  - /publication/2019-07-17-Broad-Neural-Network-Change-Detection/
-  - /publication/2019-DeID/
 cascade:
   showDate: false
   showAuthor: false
   showReadingTime: false
 ---
-3D reconstruction of people, garments and objects from ordinary images, including the parts the camera can't see. The full publication list is coming in the next update.
+I reconstruct people, garments and objects from ordinary images, including the parts the camera can't see. Full list on [Google Scholar](https://scholar.google.com/citations?user=X9XBBCcAAAAJ).

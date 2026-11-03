@@ -39,7 +39,7 @@ I'm the sole R&D engineer on a 3D virtual try-on product, leading the R&D funded
 {{< article link="/research/lgn/" showSummary=true >}}
 </div>
 
-**Earlier work:** synthetic-to-real object detection (NCVPRIPG 2017, 100+ citations) · GAN-based face de-identification (IEEE IEMTRONICS 2020) · broad learning for aerial change detection (IEMGraph 2018) · vision-based navigation for an autonomous underwater vehicle (IIT BHU). [All research](/research/)
+**Earlier work:** [synthetic-to-real object detection](/research/synthetic-transfer-learning/) (NCVPRIPG 2017, 100+ citations) · [GAN-based face de-identification](/research/epd-net/) (IEEE IEMTRONICS 2020) · [broad learning for aerial change detection](/research/broad-learning-change-detection/) (IEMGraph 2018) · vision-based navigation for an autonomous underwater vehicle (IIT BHU). [All research](/research/)
 
 ## Experience
 
