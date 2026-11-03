@@ -16,6 +16,16 @@ Param S. Rajpura, **Alakh Aggarwal**, Manik Goyal, Sanchit Gupta, Jonti Talukdar
 
 Fine-tuning a pretrained object detector only on rendered images of grocery products more than doubled its accuracy on real refrigerator photos (mAP 24.15 → 52.59).
 
+## Method
+
+{{< figure src="fig1-overview.png" alt="Pipeline: 3D object and refrigerator models rendered in Blender into annotated scenes, used to fine-tune a CNN that then detects objects in real photos" caption="3D models of products and a refrigerator are rendered into annotated scenes, and a pretrained detector is fine-tuned on them alone. (Fig. 1 in the paper.)" >}}
+
+{{< figure src="fig2-training-data.png" alt="ShapeNet product models, rendered refrigerator scenes, and real refrigerator photos" caption="(a) Some of the 3D product models. (b) Rendered training scenes with varied textures, materials, packing and camera angles; photorealism was not the goal. (c) Real refrigerator photos used for testing. (Fig. 2 in the paper.)" >}}
+
+## Results
+
+{{< figure src="fig8-detections.png" alt="Detections on real refrigerator photos across three rows" caption="Detections on real photos. Top row: every object of interest is found. Middle row: some objects are missed. Bottom row: the detector reports objects that are not there. (Fig. 8 in the paper.)" >}}
+
 ## Abstract
 
 We show that finetuning pretrained CNNs entirely on synthetic images is an effective strategy to achieve transfer learning. We apply this strategy for detecting packaged food products clustered in refrigerator scenes. A CNN pretrained on the COCO dataset and fine-tuned with our 4000 synthetic images achieves mean average precision (mAP @ 0.5-IOU) of 52.59 on a test set of real images (150 distinct products as objects of interest and 25 distractor objects) in comparison to a value of 24.15 achieved without such finetuning. The synthetic images were rendered with freely available 3D models with variations in parameters like color, texture and viewpoint without a high emphasis on photorealism. We analyze factors like training data set size, cue variances, 3D model dictionary size and network architecture for their influence on the transfer learning performance. Additionally, training strategies like fine-tuning with selected layers and early stopping which affect transfer learning from synthetic scenes to real scenes were explored. This approach is promising in scenarios where limited training data is available.

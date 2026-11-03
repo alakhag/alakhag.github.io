@@ -1,6 +1,6 @@
 ---
 title: "Broad Neural Network for Change Detection"
-summary: "IEMGraph 2018, Springer. A broad learning classifier that finds which pixels changed between two aerial images of the same place."
+summary: "IEMGraph 2018, Springer. My part: a Broad Learning System that keeps adding its own enhancement layers until accuracy stops improving, applied to finding changed pixels in aerial images."
 date: 2019-07-17
 aliases:
   - "/publication/2019-07-17-Broad-Neural-Network-Change-Detection/"
@@ -14,7 +14,15 @@ Shailesh Shrivastava, **Alakh Aggarwal**, Pratik Chattopadhyay\
 {{< button href="https://arxiv.org/abs/1903.00087" target="_blank" >}}arXiv{{< /button >}}
 </div>
 
-A broad learning classifier that finds which pixels changed between two aerial images of the same place, beating a multilayer perceptron on F-score.
+**My part was the classifier:** a Broad Learning System that keeps adding layers of enhancement nodes, each compressed with a sparse autoencoder, and stops once the cross-validated F-score stops improving. My co-author Shailesh Shrivastava applied it to detecting which pixels changed between two aerial images of the same place, where it beat a multilayer perceptron on F-score.
+
+## Method
+
+{{< figure src="architecture.png" alt="Broad Learning architecture: input layer, enhancement nodes added recursively, all concatenated into the output layer" caption="The Broad Learning System: new layers of enhancement nodes are added one at a time, then the input and all enhancement layers are concatenated and connected to the output by a single weight matrix W. (Fig. 2 in the paper.)" >}}
+
+## Results
+
+{{< figure src="results.jpg" alt="Two aerial images of the same place, the ground-truth change mask, and the predicted change map" caption="Top: two aerial images of the same place taken at different times. Bottom: the ground-truth change mask (left) and the map predicted by the Broad Learning classifier (right), with a 10:1 class imbalance. (Fig. 3 in the paper.)" >}}
 
 ## Abstract
 
