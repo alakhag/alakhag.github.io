@@ -12,9 +12,9 @@ $$R(o) = \int_{S^2} L(i) \rho_o(i) max(0, i.n) di$$
 
 ![alt text](/images/rendering_eqn.png "Rendering Equation")
 
-Using Spherical Gaussians (SGs) to render the scene is discussed in the previous [post](https://alakhag.github.io/posts/sg-render/).
+Using Spherical Gaussians (SGs) to render the scene is discussed in the previous [post](/posts/sg-render/).
 
-The mathematical properties of SGs are discussed [before](https://alakhag.github.io/posts/sg/).
+The mathematical properties of SGs are discussed [before](/posts/sg/).
 
 # PhySG in equations
 

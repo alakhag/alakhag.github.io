@@ -23,7 +23,7 @@ Note, in this equation, we use $max(0, i.n)$ to only sample incident lights from
 
 The rendering process can be optimized by using Spherical Gaussians (SGs) instead of the standard process of sampling the incident light directions. This is because SGs are a closed form function of the dot product of the incident light direction and the lobe orientation. This means that we can directly compute the integral in the rendering equation using the SGs. However, sampling the incident light directions is time-consuming, and we can avoid this by using SGs.
 
-The mathematical properties of SGs are discussed in the previous [post](https://alakhag.github.io/posts/sg/).
+The mathematical properties of SGs are discussed in the previous [post](/posts/sg/).
 
 # Rendering using SGs
 We can define environment map $L(i)$ as a mixture model of SGs. The environment map is a function of the incident light direction $i$. \\
