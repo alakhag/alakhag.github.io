@@ -14,7 +14,7 @@ Patent rule: Digi-Clone work is described by results, never by method.
 - Buttons: Resume (PDF) · Email (alakh1997@gmail.com) · Google Scholar · GitHub · LinkedIn
 
 ## Honors strip
-Best Paper Award, CVM 2025 · JEE Advanced All-India Rank 835 · NSF SBIR Phase I · Ph.D. GPA 4.0 · ~200 citations
+Best Paper Award, CVM 2025 · JEE Advanced All-India Rank 835 · Ph.D. GPA 4.0 · ~200 citations
 
 ## About
 I'm a research engineer in 3D computer vision. I reconstruct people, garments, and objects from ordinary images, including the parts the camera can't see. At Digi-Clone I lead R&D for a 3D virtual try-on product, from estimating the body to simulating the cloth. Before that, I did my Ph.D. at UT Dallas with Dr. Xiaohu Guo on occlusion-aware 3D reconstruction from hand-object interactions; that work produced TexHOI, which won the CVM 2025 Best Paper Award. My name, *Alakh*, is Sanskrit for "that which cannot be perceived by the eye", which suits someone who spends his days recovering hidden surfaces.
