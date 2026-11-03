@@ -18,6 +18,12 @@ aliases:
 
 Reconstructs the shape and true surface color of an unknown object from a single video of a hand handling it. It accounts for the shadows and reflected light the hand casts on the object.
 
+## Results
+
+{{< figure src="fig7-comparison.png" alt="Input frames and reconstructions by InvRender, HOLD and TexHOI for six hand-held objects" caption="TexHOI's albedo avoids the hand shadows and lighting that other methods bake into the texture. Compared with HOLD and InvRender. (Fig. 7 in the paper.)" >}}
+
+{{< figure src="fig9-relighting.png" alt="A kettle held by a hand, reconstructed by TexHOI and relit under different environment maps" caption="A reconstructed object can be relit under new environments. (Fig. 9 in the paper.)" >}}
+
 ## Abstract
 
 Reconstructing 3D models of dynamic, real-world objects with high-fidelity textures from monocular frame sequences has been a challenging problem in recent years. This difficulty stems from factors such as shadows, indirect illumination, and inaccurate object-pose estimations due to occluding hand-object interactions. To address these challenges, we propose a novel approach that predicts the hand’s impact on environmental visibility and indirect illumination on the object's surface albedo. Our method first learns the geometry and low-fidelity texture of the object, hand, and background through composite rendering of radiance fields. Simultaneously, we optimize the hand and object poses to achieve accurate object-pose estimations. We then refine physics-based rendering parameters—including roughness, specularity, albedo, hand visibility, skin color reflections, and environmental illumination—to produce precise albedo, and accurate hand illumination and shadow regions. Our approach surpasses state-of-the-art methods in texture reconstruction and, to the best of our knowledge, is the first to account for hand-object interactions in object texture reconstruction.
