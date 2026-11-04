@@ -5,6 +5,10 @@ aliases: ["/home/", "/about/", "/about.html"]
 ---
 <div class="text-left">
 
+{{< alert "envelope" >}}
+**Open to Research Scientist, Research Engineer, and Applied Scientist roles** in Computer Vision, 3D Perception, Robotics, Generative AI, Computer Graphics, and Machine Learning. [Get in touch →](mailto:alakh1997@gmail.com)
+{{< /alert >}}
+
 {{< lead >}}
 I build 3D vision systems that recover hidden shape, texture, and fit, and take them from research paper to product.
 {{< /lead >}}
