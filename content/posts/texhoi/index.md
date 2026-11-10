@@ -48,41 +48,78 @@ TexHOI works in two stages.
 
 - **Environment light** is a mixture of 128 spherical Gaussians (see [this post](/posts/sg/) for what those are).
 - **Material** is a small network predicting albedo and roughness at each surface point.
-- **Hand visibility** is the key part. The hand is approximated by 108 spheres attached to a parametric hand model, so they move and resize with the hand's pose and shape. For each point on the object, the method computes how much of each light lobe the spheres block, using a closed-form approximation for spherical Gaussians from Iwasaki et al. No ray tracing is needed.
-- **Skin bounce** is a learned indirect-light term, initialized to a skin tone and added where the hand occludes the object.
+- **Hand visibility** is the key part. The hand is approximated by 108 spheres attached to a parametric hand model, so they move and resize with the hand's pose and shape. At each point on the object, every lighting lobe is divided into a 64×64 grid of patches, and each sphere is projected onto that grid. The blocked fraction of the lobe is the integral over the covered patches, computed in closed form with the spherical Gaussian approximation from Iwasaki et al. No ray tracing is needed.
+- **Skin bounce** is a learned indirect-light term, initialized to a skin tone. Where the hand blocks a lobe, the blocked light is replaced by this skin-colored light.
 
 Because the shadows and the skin tint are now explained by the hand, the optimizer no longer needs to paint them into the albedo.
 
-## A toy version of the visibility idea
+## A toy version: projecting a sphere onto a lobe
 
-Spheres are a good choice because the question "does this sphere block this direction?" has an exact answer. Seen from a point, a sphere of radius $r$ whose center is distance $d$ away covers a cone of half-angle $\arcsin(r/d)$. A direction is blocked if it falls inside that cone.
+Spheres are a good choice because projecting one onto a lobe has an exact answer. Seen from a surface point, a sphere of radius $r$ whose center is distance $d$ away covers a cap of directions with angular radius $\arcsin(r/d)$. A patch of the lobe is blocked if its direction falls inside that cap.
+
+A spherical Gaussian lobe with axis $p$ and sharpness $\lambda$ has strength $e^{\lambda(\cos\theta - 1)}$ at angle $\theta$ from its axis. Measuring $\theta$ and $\phi$ around the lobe axis, its integral over one patch has a closed form:
+
+$$
+\int_{\phi_0}^{\phi_1}\!\int_{\theta_0}^{\theta_1} e^{\lambda(\cos\theta - 1)} \sin\theta \, d\theta\, d\phi
+= (\phi_1 - \phi_0)\,\frac{e^{\lambda(\cos\theta_0 - 1)} - e^{\lambda(\cos\theta_1 - 1)}}{\lambda}
+$$
+
+So the whole computation is: split the lobe into patches, project the sphere, and add up the covered patches.
 
 ```python
 import numpy as np
 
-def blocked(x, light_dirs, centers, radii):
-    """True where a ray from surface point x toward a light direction hits any sphere."""
-    hit = np.zeros(len(light_dirs), dtype=bool)
+def frame(axis):
+    """Two unit vectors perpendicular to the lobe axis."""
+    a = np.array([1.0, 0, 0]) if abs(axis[0]) < 0.9 else np.array([0, 1.0, 0])
+    t = np.cross(axis, a); t /= np.linalg.norm(t)
+    return t, np.cross(axis, t)
+
+def occluded_fraction(x, axis, sharpness, centers, radii, n=64):
+    """Project hand spheres onto an SG lobe at point x; return the fraction of the lobe they block."""
+    t, b = frame(axis)
+    theta = np.linspace(0, np.pi, n + 1)          # angle from the lobe axis
+    phi = np.linspace(0, 2 * np.pi, n + 1)        # angle around it
+
+    # Exact SG integral over each patch (the formula above)
+    ring = np.exp(sharpness * (np.cos(theta) - 1)) / sharpness
+    weight = np.outer(ring[:-1] - ring[1:], np.diff(phi))   # n x n patch integrals
+
+    # Direction at each patch centre
+    tc, pc = (theta[:-1] + theta[1:]) / 2, (phi[:-1] + phi[1:]) / 2
+    T, P = np.meshgrid(tc, pc, indexing="ij")
+    dirs = (np.cos(T)[..., None] * axis
+            + (np.sin(T) * np.cos(P))[..., None] * t
+            + (np.sin(T) * np.sin(P))[..., None] * b)
+
+    # Project each sphere onto the lobe: it covers a cap of angular radius asin(r / d)
+    covered = np.zeros((n, n), dtype=bool)
     for c, r in zip(centers, radii):
         to_c = c - x
-        dist = np.linalg.norm(to_c)
-        cos_cone = np.sqrt(max(0.0, 1 - (r / dist) ** 2))   # sphere's angular radius
-        hit |= light_dirs @ (to_c / dist) > cos_cone
-    return hit
+        d = np.linalg.norm(to_c)
+        covered |= dirs @ (to_c / d) > np.sqrt(max(0.0, 1 - (r / d) ** 2))
 
-rng = np.random.default_rng(0)
-dirs = rng.normal(size=(100_000, 3))
-dirs /= np.linalg.norm(dirs, axis=1, keepdims=True)
-dirs = dirs[dirs[:, 2] > 0]                               # upper hemisphere (normal = +z)
+    return weight[covered].sum() / weight.sum()
 
-x = np.zeros(3)                                           # a point on the object
-finger = [np.array([0.0, 0.0, 0.03])], [0.01]             # a 1 cm "finger" sphere, 3 cm away
-print(f"{blocked(x, dirs, *finger).mean():.1%}")          # 5.8%
-finger = [np.array([0.0, 0.0, 0.10])], [0.01]             # the same finger, 10 cm away
-print(f"{blocked(x, dirs, *finger).mean():.1%}")          # 0.5%
+x = np.zeros(3)                                    # a point on the object
+axis, sharpness = np.array([0, 0, 1.0]), 10.0      # one lighting lobe, pointing straight up
+finger = 0.01                                      # a 1 cm fingertip sphere
+print(occluded_fraction(x, axis, sharpness, [np.array([0, 0, 0.03])], [finger]))     # 0.443
+print(occluded_fraction(x, axis, sharpness, [np.array([0, 0, 0.10])], [finger]))     # 0.047
+print(occluded_fraction(x, axis, sharpness, [np.array([0.03, 0, 0.01])], [finger]))  # 0.001
 ```
 
-Move one fingertip from 10 cm to 3 cm and it blocks over ten times more of the sky. That is why hand shadows are so strong where fingers touch the object. TexHOI does the same calculation for all 108 spheres, against spherical Gaussian lobes instead of sampled directions, in every frame.
+![A spherical Gaussian lobe split into patches, with a finger sphere projected onto it. Blue shows lobe strength, red shows the patches the sphere covers. Spheres are drawn at a fixed distance, scaled to cover the same angle as the real finger.](sphere-on-lobe-3d.png)
+
+Three things show up. A fingertip 3 cm away, in the lobe's direction, blocks 44% of that lobe. Move it to 10 cm and it blocks under 5%, because its cap shrinks. Move it off to the side and it covers patches where the lobe is nearly zero, so it blocks almost nothing even though it's just as close. That is why hand shadows are strongest where fingers touch the object, and why they depend on where the light comes from.
+
+The blocked fraction then decides how the point is lit. Blocked environment light is replaced by the hand's skin-colored light:
+
+$$
+L = L_{\text{env}}\,(1 - F) + L_{\text{skin}}\,F
+$$
+
+TexHOI does this for all 108 spheres and all 128 lobes, at every surface point, in every frame.
 
 ## Results
 
