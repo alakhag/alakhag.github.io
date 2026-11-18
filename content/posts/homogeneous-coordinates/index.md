@@ -1,6 +1,6 @@
 ---
 title: 'Homogeneous Coordinates: Why Vision Adds an Extra 1'
-date: 2026-11-18
+date: 2026-11-17
 url: /posts/homogeneous-coordinates/
 summary: 'Foundations of 3D Vision, Part 2. Add one number to every point, and projection, translation and even finding where two lines meet become plain matrix multiplication.'
 tags:
